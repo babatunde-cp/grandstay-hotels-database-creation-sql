@@ -20,7 +20,7 @@ multiple tables.
 
 ---
 
-## 🎯 Business Problem
+##  Business Problem
 
 The operations team had one Excel file doing the job of six. Every 
 booking row repeated hotel details, guest details, room details, 
@@ -38,7 +38,7 @@ service charges and payment information, which resulted in:
   differently across rows
 
 
-## 💡 Solution
+##  Solution
 
 A fully normalised six-table relational database designed from scratch 
 in SQL Server, replacing the flat Excel structure with a properly 
@@ -47,7 +47,7 @@ and supports all six business validation queries.
 
 ---
 
-## 🗄️ Database Architecture
+##  Database Architecture
 
 ### Entity Relationship Overview
 
@@ -71,7 +71,7 @@ and supports all six business validation queries.
 
 ---
 
-## 🔑 Key Design Decisions
+##  Key Design Decisions
 
 ### 1. Surrogate Primary Keys
 All six tables use `INT IDENTITY(1,1)` as the primary key. Natural 
