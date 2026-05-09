@@ -1,8 +1,7 @@
 # GrandStay Hotels & Resorts — SQL Database Project
 
 ![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
-![Cohort](https://img.shields.io/badge/Data%20with%20Danny-Cohort%208-blue?style=for-the-badge)
+
 
 ## Project Overview
 
