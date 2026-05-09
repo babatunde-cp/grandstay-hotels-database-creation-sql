@@ -62,12 +62,12 @@ and supports all six business validation queries.
 
 | Table | Layer | Rows | Description |
 |-------|-------|------|-------------|
-| Hotel | Master Data | 6 | Core property information for all six cities |
-| Guest | Master Data | 22 | Guest profiles, identity and loyalty data |
-| Room | Operational Data | 30 | Physical room attributes and nightly rates |
-| Booking | Transactional Data | 68 | Reservation records across 2025 and 2026 |
-| ServiceCharge | Detail Data | 33 | Individual ancillary service line items |
-| Payment | Detail Data | 57 | Payment records with full transaction history |
+| Hotel | Reference | 6 | Core property information for all six cities |
+| Guest | Reference | 22 | Guest profiles, identity and loyalty data |
+| Room | Operational | 30 | Physical room attributes and nightly rates |
+| Booking | Transactional | 68 | Reservation records across 2025 and 2026 |
+| ServiceCharge | Detail | 49 | Individual ancillary service line items |
+| Payment | Detail | 59 | Payment records with full transaction history |
 
 ---
 
